@@ -7,3 +7,32 @@
 body { 
     background-color: lightcyan;
 }
+
+main {
+    height: 80%;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 1fr 70px;
+    grid-template-areas: 
+        "article article article"
+        "section section aside"
+        "section section aside"
+        "section section aside"; 
+}
+
+article {
+    grid-area: article;
+    background-color: blue;
+}
+
+section {
+    grid-area: article;
+    background-color: green;
+}
+
+aside {
+    grid-area: article;
+    background-color: red;
+}
+
+
