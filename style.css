@@ -18,6 +18,25 @@
 header {
     grid-area: header;
     padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#search {
+    width: 400px;
+    padding: 5px;
+}
+
+#search input[type="submit"] {
+    background-color: green;
+    width: 80px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#search input[type="search"] {
+    width: 250px;
 }
 
 nav{
@@ -96,6 +115,20 @@ article {
         color: white;
         padding: 10px;
         align-self: center;
+    }
+
+    section {
+        border: 1px solid gray;
+        border-radius: 15px 0 15px 0;
+        border-style:outset;
+        border-width: 15px 0 25px 0;
+    }
+
+    aside {
+        border: 1px solid black;
+        border-radius: 35px 0 35px 0;
+        border-width: 10px 20px 5px 10px;
+        padding: 15px;
     }
 
 
