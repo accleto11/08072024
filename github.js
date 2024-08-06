@@ -1,2 +1,7 @@
-console.log("version 1");
-console.log("version 2");
+console.log("hello world");
+function even () {
+	for (let i = 0; i <= 51; i++) {
+	if (i % 2 ===0 ) {
+	console.log (`${i} is even number`)};
+}; 
+}
