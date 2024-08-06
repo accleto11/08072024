@@ -29,12 +29,73 @@
         </nav>
         <main>
             <article>
-                <div class="mainPhoto">
-                    <img src="https://picsum.photos/id/237/200/300" alt="sample photo">
-                </div>
-                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consequuntur ab praesentium labore asperiores dicta corrupti a incidunt perspiciatis debitis, cum rerum possimus similique voluptatibus commodi illum corporis voluptas beatae.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consequuntur ab praesentium labore asperiores dicta corrupti a incidunt perspiciatis debitis, cum rerum possimus similique voluptatibus commodi illum corporis voluptas beatae.
-                </figcaption>
+                <h2>How to clone a github repository</h2>
+                <ol>
+                    <li>
+                        Cloning the Repository
+                        <p>git clone <repository-url></repository-url></p>
+                    </li>
+                    <li>
+                        Creating a New Branch
+                <p>cd <repository-name>
+                    git checkout -b <new-branch-name>
+                </p>
+                    </li>
+                    <li>
+                        Making Changes
+                <p>
+                    git add <file1> <file2> ...
+                    or git add .
+                </p>
+                    </li>
+                    <li>
+                            Committing Changes
+                        <p>
+                            git commit -m "Your descriptive commit message"
+                        </p>
+                    </li>
+                    <li>
+                            Pushing Changes to GitHub
+                        <p>
+                            git push origin <new-branch-name></new-branch-name>
+                        </p>
+                    </li>
+                    <li> Alternative: Creating a Pull Request via GitHub CLI
+                        <p>
+                            gh pr create --base <base-branch> --head <new-branch-name> --title "Your PR Title" --body "Description of your PR"
+                        </p>
+                    </li>
+                </ol>
+                
+                
+                
+                <h2>
+                    Creating a Pull Request
+                </h2>
+                <p>
+                    To create a pull request (PR), you need to use the GitHub website. Here's how:
+
+                    <ol>
+                        <li>
+                            Navigate to your repository on GitHub.
+                        </li>
+                        <li>
+                            Switch to your new branch by clicking the branch dropdown and selecting it.
+                        </li>
+                        <li>
+                            Click on the "Compare & pull request" button.
+                        </li>
+                        <li>
+                            Provide a title and description for your pull request.
+                        </li>
+                        <li>
+                            Review the changes to ensure everything looks correct.
+                        </li>
+                        <li>
+                            Click on the "Create pull request" button.
+                        </li>
+                    </ol>
+                </p>
             </article>
             <section class="section1">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consequuntur ab praesentium labore asperiores dicta corrupti a incidunt perspiciatis debitis, cum rerum possimus similique voluptatibus commodi illum corporis voluptas beatae.</p>
