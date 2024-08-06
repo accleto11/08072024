@@ -82,6 +82,7 @@ nav li:last-child {
 
 main {
     grid-area: main;
+	background-color:red;
     display: grid;
     grid-template-columns: repeat(autofit, minmax( 1fr 200px));
     grid-template-rows: repeat(autofit, minmax(200px 1fr));
