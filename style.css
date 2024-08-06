@@ -21,7 +21,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: red;
+    background-color: gray;
 }
 
 h2 {
@@ -97,8 +97,8 @@ main {
 article {
     grid-area: article;
     border: 1px solid black;
-    border-radius: 25px 0 35px 0;
-    border-width: 30px 0 25px 0;
+    border-radius: 0 35px 0 25px;
+    border-width: 15px 0 15px 0;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
