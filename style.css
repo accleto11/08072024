@@ -116,9 +116,9 @@ article {
     }
 
     section {
-        border: 1px solid gray;
+        border: 1px solid black;
         border-radius: 15px 0 15px 0;
-        border-style:outset;
+        border-style: groove;
         border-width: 15px 0 25px 0;
     }
 
